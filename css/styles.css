@@ -49,16 +49,16 @@ body {
 /* ===header=== */
 
 .container {
-    width: 1200px;
+    width: 1600px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .heder-container {
+    height: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .navigation {
@@ -69,7 +69,10 @@ body {
 .menu-nav {
     display: flex;
     align-items: center;
-    margin-right: ;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 40px;
 }
 
 .contact-menu {
@@ -177,6 +180,8 @@ body {
 
 
 /* ===features_section=== */
+
+.features-list {}
 
 .suptitle {
     font-size: 14px;
