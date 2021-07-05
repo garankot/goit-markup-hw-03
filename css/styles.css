@@ -160,16 +160,16 @@ body {
 
 
 /* ===hero=== */
-
 .hero-container {
-    display: block;
-    background: var(--main-background-color);
+    background-color: var(--main-background-color);
+    width: 1600px;
+    margin: 0 auto;
     padding-top: 200px;
     padding-bottom: 200px;
 }
 
 .main-title {
-    margin-bottom: 30px;
+    margin-bottom: 30px ;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -179,8 +179,7 @@ body {
     color: var(--main-title-color);
 }
 
-.popup-btn {
-    margin-left: 485px;
+.popup-btn {    
     font-family: "Roboto", sans-serif;
     background: var(--accent-color);
     font-weight: 700;
@@ -198,6 +197,7 @@ body {
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .popup-btn:hover,
@@ -248,7 +248,7 @@ body {
 /* ===about_section=== */
 
 .about-title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -267,10 +267,12 @@ body {
 
 /* ===our_team_section=== */
 
-.ots-container {
+/* .ots-container {
+    background-color: var(--filters-btn-bgr-color);
+} */
+.our-team-section{
     background-color: var(--filters-btn-bgr-color);
 }
-
 .our-team-list {
     display: flex;
     flex-wrap: wrap;
@@ -298,7 +300,7 @@ body {
 
 .our-team-title {
     padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -328,29 +330,25 @@ body {
 
 
 /* ===footer=== */
-
-.footer-container {
-    display: flex;
-    flex-direction: column;
+.footer{
     background-color: var(--main-background-color);
 }
 
-.logo-footer {
-    display: block;
-    box-sizing: content-box;
-    margin-top: 60px;
-    margin-bottom: 20px;
-    margin-right: 1055px;
+.footer-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
+
+.logo-div{
+    margin-bottom: 20px;
+}
 .last-logo {
     color: var(--main-title-color);
 }
 
 .address {
     font-style: normal;
-    display: block;
-    margin-bottom: 60px;
 }
 
 .address-list-item {
@@ -419,7 +417,6 @@ body {
 }
 
 .filters-btn {
-    height: 38px;
     border: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -430,6 +427,7 @@ body {
     color: var(--suptitle-color);
     background: var(--filters-btn-bgr-color);
     border-radius: 4px;
+    padding: 6px 22px;
 }
 
 .filters-btn:hover,
